@@ -1,8 +1,10 @@
+import React, { Component } from "react";
 import "../Styles/App.css";
 import Book from "./Book";
+// require the cor module
+const cors = require("cors");
 
 // this function will contain a form to capture user input
-import React, { Component } from "react";
 
 export default class App extends Component {
   // set up initial state in the constructor
