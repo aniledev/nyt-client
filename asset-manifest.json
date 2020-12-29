@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/nyt-client/static/css/main.afd7172b.chunk.css",
-    "main.js": "/nyt-client/static/js/main.c47ff043.chunk.js",
-    "main.js.map": "/nyt-client/static/js/main.c47ff043.chunk.js.map",
-    "runtime-main.js": "/nyt-client/static/js/runtime-main.90875578.js",
-    "runtime-main.js.map": "/nyt-client/static/js/runtime-main.90875578.js.map",
-    "static/js/2.d380dc86.chunk.js": "/nyt-client/static/js/2.d380dc86.chunk.js",
-    "static/js/2.d380dc86.chunk.js.map": "/nyt-client/static/js/2.d380dc86.chunk.js.map",
+    "main.js": "/nyt-client/static/js/main.3debad14.chunk.js",
+    "main.js.map": "/nyt-client/static/js/main.3debad14.chunk.js.map",
+    "runtime-main.js": "/nyt-client/static/js/runtime-main.eb924d34.js",
+    "runtime-main.js.map": "/nyt-client/static/js/runtime-main.eb924d34.js.map",
+    "static/js/2.8fcc1264.chunk.js": "/nyt-client/static/js/2.8fcc1264.chunk.js",
+    "static/js/2.8fcc1264.chunk.js.map": "/nyt-client/static/js/2.8fcc1264.chunk.js.map",
     "index.html": "/nyt-client/index.html",
     "static/css/main.afd7172b.chunk.css.map": "/nyt-client/static/css/main.afd7172b.chunk.css.map",
-    "static/js/2.d380dc86.chunk.js.LICENSE.txt": "/nyt-client/static/js/2.d380dc86.chunk.js.LICENSE.txt"
+    "static/js/2.8fcc1264.chunk.js.LICENSE.txt": "/nyt-client/static/js/2.8fcc1264.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.90875578.js",
-    "static/js/2.d380dc86.chunk.js",
+    "static/js/runtime-main.eb924d34.js",
+    "static/js/2.8fcc1264.chunk.js",
     "static/css/main.afd7172b.chunk.css",
-    "static/js/main.c47ff043.chunk.js"
+    "static/js/main.3debad14.chunk.js"
   ]
 }
