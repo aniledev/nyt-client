@@ -29,6 +29,47 @@ export default class App extends Component {
     });
   }
 
+  handleSubmit(e) {
+    // prevent default action of form submission
+    e.preventDefault();
+
+    //construct a URL with the query string
+    const baseUrl = "http://localhost:8000/books";
+
+    // construct the query parameters in the form search=title&sort=title
+    const params = [];
+    if (this.state.search) {
+      params.push(`search=${this.state.search}`);
+    }
+    if (this.state.sort) {
+      params.push(`sort=${this.state.sort}`);
+    }
+    const query = params.join("&");
+    const url = `${baseUrl}?${query}`;
+
+    // simple GET request using the fetch method
+    fetch(url)
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(res.statusText);
+        }
+        return res.json();
+      })
+      // set state with the new data is that is the response
+      .then((data) => {
+        this.setState({
+          books: data,
+          error: null, //reset errors
+        });
+      })
+      // if there is an error, catch it and set state with the error
+      .catch((err) => {
+        this.setState({
+          error: "Sorry, could not get books at this time.",
+        });
+      });
+  }
+
   render() {
     //map over all the books
     const books = this.state.books.map((book, i) => {
