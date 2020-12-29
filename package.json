@@ -1,6 +1,6 @@
 {
   "homepage": "https://aniledev.github.io/nyt-client/",
-  "name": "nytclient",
+  "name": "nyt-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
